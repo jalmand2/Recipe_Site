@@ -47,6 +47,20 @@ $gradient-radial: radial-gradient(#46351dff, #646f4bff, #839d9aff, #7bb2d9ff, #b
 
 header {
     background-color: rgb(34, 134, 14);
-    height: auto;
+    height: 800px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/images/pexels-taryn-elliott-6743238.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.title {
+    font-size: 50px;
+}
+.quote {
+    background-color: var(--ash-gray);
+    border: solid black 2px;
 }
